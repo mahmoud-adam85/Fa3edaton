@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E9C317C23E7295C00288425 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C317B23E7295C00288425 /* MainViewController.swift */; };
+		1E9C317E23E72CDE00288425 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9C317D23E72CDE00288425 /* MainViewModel.swift */; };
 		1E9ECA7223E71E270043F19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9ECA7123E71E270043F19E /* AppDelegate.swift */; };
 		1E9ECA7B23E71E2B0043F19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9ECA7A23E71E2B0043F19E /* Assets.xcassets */; };
 		1E9ECA7E23E71E2B0043F19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9ECA7C23E71E2B0043F19E /* LaunchScreen.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		1E9C317B23E7295C00288425 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1E9C317D23E72CDE00288425 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		1E9ECA6E23E71E270043F19E /* Fa3edaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fa3edaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9ECA7123E71E270043F19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E9ECA7A23E71E2B0043F19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,10 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				1E9ECA7123E71E270043F19E /* AppDelegate.swift */,
-				1E9C317B23E7295C00288425 /* MainViewController.swift */,
 				1E9ECA7A23E71E2B0043F19E /* Assets.xcassets */,
 				1E9ECA7C23E71E2B0043F19E /* LaunchScreen.storyboard */,
 				1E9ECA7F23E71E2B0043F19E /* Info.plist */,
+				1E9C317B23E7295C00288425 /* MainViewController.swift */,
+				1E9C317D23E72CDE00288425 /* MainViewModel.swift */,
 			);
 			path = Fa3edaton;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			files = (
 				1E9ECA7223E71E270043F19E /* AppDelegate.swift in Sources */,
 				1E9C317C23E7295C00288425 /* MainViewController.swift in Sources */,
+				1E9C317E23E72CDE00288425 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
